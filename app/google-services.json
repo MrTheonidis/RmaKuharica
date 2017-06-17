@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "252561992694",
+    "firebase_url": "https://projektverzija1.firebaseio.com",
+    "project_id": "projektverzija1",
+    "storage_bucket": "projektverzija1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252561992694:android:81a7083432ab98af",
+        "android_client_info": {
+          "package_name": "com.theonidis.ivan.projekt_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252561992694-v5vah1lqj8ahh6h7a7agvj5datm25550.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAklvycL2NBxaULQ0N30NTUPPXTttFky9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

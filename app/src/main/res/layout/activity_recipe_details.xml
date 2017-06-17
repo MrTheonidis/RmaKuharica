@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/rec_ime_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime:"
+        android:textSize="25dp"
+        android:textColor="#12d5ff"/>
+
+    <TextView
+        android:id="@+id/rec_vrs_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vrsta: "
+        android:textSize="18dp"
+        android:layout_below="@+id/rec_ime_ex"
+        android:layout_alignStart="@+id/rec_ime_ex" />
+
+    <ImageView
+        android:id="@+id/rec_slika_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/rec_vrs_ex"
+        android:layout_toEndOf="@+id/rec_vrs_ex"
+        android:layout_marginStart="180dp" />
+
+
+    <TextView
+        android:id="@+id/rec_sas_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="Sastojci: "
+        android:textColor="#90091D"
+        android:textSize="16dp"
+        android:layout_below="@+id/rec_slika_ex"/>
+
+    <TextView
+        android:id="@+id/rec_pri_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Priprema: "
+        android:textSize="16dp"
+        android:layout_below="@+id/rec_sas_ex"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
